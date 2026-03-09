@@ -1,0 +1,6 @@
+Learn:
+
+image loading
+grayscale
+pixel operations
+filters
