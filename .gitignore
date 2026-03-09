@@ -1,0 +1,74 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environment
+
+venv/
+env/
+.venv/
+
+# Environment variables
+
+.env
+
+# Streamlit cache
+
+.streamlit/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Python build files
+
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Model downloads / AI artifacts
+
+models/
+checkpoints/
+
+# FAISS index files (if you store them later)
+
+*.index
+*.faiss
+
+# Local databases
+
+*.db
+*.sqlite3
+
+# Node modules (if frontend added later)
+
+node_modules/
+
+# Coverage reports
+
+.coverage
+htmlcov/
