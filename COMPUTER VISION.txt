@@ -1,0 +1,41 @@
+COMPUTER VISION
+
+Images → Filters → Edges → Shapes → Geometry → Features → ML/DL
+
+CONCEPTS:
+1. Image representation
+2. Image filtering
+3. Edge detection
+4. Thresholding & segmentation
+5. Morphological operations
+6. Contours & shape analysis
+7. Feature detection
+8. Object detection / deep learning
+
+STEPS IN LEARNING EACH CONCEPT:
+Concept
+↓
+Math intuition
+↓
+Visualization
+↓
+Small code experiment
+
+1. IMAGE REPRESENTATION: Matrix of pixels. Key concepts to understand to image rep. pixels, channels, intensity, coordinate system
+
+2. IMAGE FILTERING: Filters are small matrices called kernels. Used for edge detection, noise removal, sharpening, feature extraction. Key concepts to under filter, convolution, kernels, gaussian blur
+
+3. GRADIENTS AND EDGE DETECTION: Edges are detected using image gradients. GRADIENT = Change in pixel intensity. Huge change = EDGE (High Gradient).
+	Algorithms: Sobel, Perwitt, Canny
+	Canny Pipeline: Images → Gaussian Bulr → Gradient Computation → Non-maximum suppression → Hysterisis Threshold
+
+4. THRESHOLDING AND SEGMENTATION: Converting grayscale image into binary image
+	Types: Global, Adaptive, Otsu
+	Used for: Object segmentation, Text Extraction, Document Scanning
+
+5. MORPHOLOGICAL OPERATIONS: Applied on binary images.
+	Important Operations: Erosion, Dilation, Opening, Closing
+	Used in: OCR, Object Detection, Shape Detection
+
+6. CONTOURS & SHAPE ANALYSIS: Contours detect object boundaries
+	Contour allows us to compute: area, perimeter, bounding box, shape, centroid
