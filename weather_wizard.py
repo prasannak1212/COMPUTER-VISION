@@ -81,7 +81,7 @@ while True:
             # Get landmark list; Each item of this list is a landmark and it contains x,y,z coordinates
             landmarks = handLms.landmark
 
-            # Finger detection logic; landmarks[8] finger tip, landmarks[6] finger joint; Because top of the screen amller 'y' value
+            # Finger detection logic; landmarks[8] index finger tip, landmarks[6] finger joint; Because top of the screen amller 'y' value
             if landmarks[8].y < landmarks[6].y:
                 fingers += 1
             if landmarks[12].y < landmarks[10].y:
